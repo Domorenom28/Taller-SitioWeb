@@ -1,0 +1,112 @@
+body{ /*modificamos odo el cuerpo*/ 
+	font-family: arial,helvetica;
+	background: #e8e8e8;
+}
+header{ /*modificamos el header que contiene el menu*/
+	background: #080DA0;
+	width: 100%;
+	clear: both;
+	content: "";
+	display: table;
+}
+.menu{  /*Modificamos donde estan las opciones de acceso*/
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+.menu li a{ /* modificamos donde estan los links de acceso*/
+	text-decoration: none;
+	color: white;
+	padding: 25px;
+	display: block;
+}
+.menu li{ /* modificamos la lista*/
+	display: inline-block;
+	float: center;
+}
+.menu li a:hover{ /*con esta opcion nos permite cambiar el color cuando esten encima de la opcion*/
+	color: #ef8354;
+}
+.brand img{ /* modificamos las domensiones de la imagen que tenemos de logo*/
+	width: 65px;
+	height: 50px;
+	float: left;
+	padding: 9px;
+}
+
+/*Modifica el texto alineandolo a la izquierda*/
+div {
+	text-align: left;
+	width: 800px;
+	margin: 0 auto;
+}
+
+/*centra el texto de h3 */
+div h3{
+	text-align: center;
+}
+
+/*centra el texto de h2 */
+h2{
+	text-align: center;
+}
+
+/*Pone en negrita los elementos de la lista*/
+.juegos li{
+	font-weight: bold;
+}
+
+/*Deja los parrafos que pertenecen a las listas en letra normal*/
+.juegos li p{
+	font-weight: normal;
+}
+
+/*Permite que la buena alineacion de imagenes con float */
+hr{
+	clear: both;
+}
+
+/*Permite poner las imagenes a la izquierda y editar su tamaño y margenes*/
+.ps{
+	float:  right;
+	width: 20%;
+	margin-bottom : 10px;
+	overflow: hidden;
+	position : relative;
+	cursor: pointer;
+	box-shadow: 0 0 6px 0 rgba(e, e, 0, 5)
+}
+
+/*Permite poner las imagenes a la izquierda y editar su tamaño y margenes*/
+.ps1{
+	float:  right;
+	width: 30%;
+	margin-bottom : 10px;
+	overflow: hidden;
+	position : relative;
+	cursor: pointer;
+	box-shadow: 0 0 6px 0 rgba(e, e, 0, 5);
+}
+
+/*pone la animacion el logo*/
+#logo{
+	animation: animacion 2s linear infinite;
+}
+
+@keyframes animacion{
+	0%{
+		box-shadow: 0 0 0 #e8e8e8, 0 0 0 #e8e8e8;
+	}
+
+	30%{
+		box-shadow: 0 0 0 5px #e8e8e8,0 0 0 5px #e8e8e8;
+	}
+
+	65%{
+		box-shadow: 0 0 0 5px #e8e8e8,0 0 0 5px #e8e8e8;
+	}
+
+	100%{
+		box-shadow: 0 0 0 #e8e8e8, 0 0 0 #e8e8e8;
+	}
+}
